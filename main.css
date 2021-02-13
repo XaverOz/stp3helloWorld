@@ -1,0 +1,29 @@
+/* оформление применится 
+ко всем тегам div */
+div {
+    background-color: #E1BF35;
+    background: #fc3; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+}
+/* оформление применится 
+к классу header*/
+.header {
+	text-align: center;
+}
+/* оформление применится 
+к элементу с id article1*/
+#article1 {
+	float: left;
+	width: 45%;
+}
+
+#article2 {
+	float: right;
+	width: 45%;
+}
+
+
+
+
+
+
