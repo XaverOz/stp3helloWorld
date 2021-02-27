@@ -1,0 +1,14 @@
+<html>
+	<script>
+		fetch('http://127.0.0.1:8080/rest/garland')
+  			.then((response) => {
+    			return response.json();
+  			}).then((data) => {
+    			alert(data.lights[0].state); 
+  			});
+	</script>
+	<head></head>
+	<body>
+		
+	</body>
+</html>
